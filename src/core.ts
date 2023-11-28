@@ -434,7 +434,10 @@ export async function findDex(
     factories.map(async (factory) => {
       const facContract = await toContract(tezos, factory);
       const facStorage = await facContract.storage<any>();
-      const dexAddress = await facStorage.token_to_exchange.get(t2dexQuery);
+      const dexAddress =
+        tokenAddress === "KT1LN4LPSqTMS7Sd2CJw4bbDGRkMv2t68Fy9"
+          ? "KT1WxgZ1ZSfMgmsSDDcUn8Xn577HwnQ7e1Lb"
+          : await facStorage.token_to_exchange.get(t2dexQuery);
 
       if (dexAddress) {
         const dexContract = await toContract(tezos, dexAddress);
