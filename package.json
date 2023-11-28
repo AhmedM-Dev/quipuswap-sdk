@@ -1,6 +1,6 @@
 {
-  "name": "@quipuswap/sdk",
-  "version": "3.1.0",
+  "name": "@lyzi/quipuswap-sdk",
+  "version": "3.1.0-2",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
   "typings": "dist/index.d.ts",
@@ -10,17 +10,17 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "Madfish Solutions",
-    "email": "info@madfish.solutions"
+    "name": "Ahmed Mahmoudi",
+    "email": "ahmed.tn@yandex.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madfish-solutions/quipuswap-sdk.git"
+    "url": "git+https://github.com/AhmedM-Dev/quipuswap-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/madfish-solutions/quipuswap-sdk/issues"
+    "url": "https://github.com/AhmedM-Dev/quipuswap-sdk.git/issues"
   },
-  "homepage": "https://github.com/madfish-solutions/quipuswap-sdk#readme",
+  "homepage": "https://github.com/AhmedM-Dev/quipuswap-sdk.git#readme",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
